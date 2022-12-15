@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pets</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background:rgba(224, 255, 205, 0.3);
+      }
+      .hero {
+        background:rgba(224, 255, 205);
+        padding: 80px 30px;
+      }
+      .hero h1 {
+        font-size: 72px;
+        text-align: left;
+        color: #3a7563;
+      }
+      h1 {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 48px;
+        color: #3a7563;
+        text-align: center;
+    
+      }
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #3a7563;
+        text-align: center;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: #3a7563;
+      }
+      li {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: #3a7563;
+      }
+      .content-container {
+        padding: 30px;
+      }
+      .pet-content {
+        margin-bottom: 40px;
+      }
+      .text-description {
+        padding-top: 10px;
+      }
+      .btn-dark {
+        padding: 20px 40px;
+        background: #3a7563;
+        border: none;
+        font-family:  "Poppins", sans-serif;
+        color: rgb(224, 255, 205);
+        transition: ease-in-out;
+      }
+      .btn-dark:hover {
+        cursor:pointer;
+        background: rgba(224, 255, 205, 0.3);
+        color:#3a7563;
+        font-weight: 700;
+        border:1px solid #3a7563;
+      }
+      .link {
+        display: flex;
+        justify-content: center;
+      }
+      .closing {
+        text-align: center;
+        padding-top: 40px;
+      }
+      .closing a {
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg fixed-top bg-dark>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">🐶🐱</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About-Remi">About Remi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#About-Oliver">About Oliver</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Find-A-Pet">Find a Pet</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <div class="hero">
+      <h1 class="mb-3">Let's Talk about Pets...</h1>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/913/original/Remi_Square.jpg?1671112587"
+              class="img-fluid w-75 rounded mb-5"
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/914/original/Ollie_Pretty_Square.jpg?1671112612"
+              class="img-fluid w-75 rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-container">
+      <div class="pet-content">
+        <h1 class="mb-4" id="About-Remi">Remi Rooster</h1>
+        <div class="row">
+          <div class="col-md-6 pet-image">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/915/original/Remi_Race_Square.jpg?1671112682"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-6 text-description">
+            <p>
+              Remi Rooster is thought to be a Rat Terrier, Chihuahua, Jack
+              Russell Terrier mix. AKA he's a little mini-mutt! Remi came into
+              our lives in April of 2022 through a local no-kill shelter.
+              Weighing in at only 16 pounds, he's the perfect addition to our
+              family. Remi enjoys running around at the dog park, chasing
+              squirrels, and most of all - EATING! As long as he is with one of
+              his paw-rents he is a happy camper. Remi is full of love and just
+              loves to snuggle and get pets as much as possible. He is a very
+              good boy! 🐶
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pet-content">
+        <h1 class="mb-4" id="About-Oliver">Oliver the Cat</h1>
+        <div class="row">
+          <div class="col-md-6 text-description">
+            <p>
+              Oliver is our tuxedo kitty! Always dressed to impressed, Oliver is
+              a very personable cat. He more often acts like a dog in a cat's
+              body. Oliver is 7 years old. He is the spunkiest kitty cat you
+              have ever seen. He's a healthy 13 pounds and basically bigger than
+              Remi. Oliver loves to lounge in the sun, get pets, and most of all
+              - get treats. Oliver also joined our family through a no-kill
+              shelter! We knew Oliver was right for our family after about 10
+              seconds. Oliver is the best big boy cat for our family!🐱
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/058/916/original/Ollie_Square.JPG?1671112788"
+              class="img-fluid rounded pet-image"
+            />
+          </div>
+        </div>
+      </div>
+      </br>
+      <h2 class="mb-3" id="Find-A-Pet">Add to your family AND help an animal in need!</h2>
+      <p>
+        Thousands of dogs, cats, and many other house pets are looking for homes
+        constantly! We strongly believe in getting your fur-ever friend from a
+        no-kill shelter. These shelters work purely for the good of the animals.
+        THere are so many animals that have so much love to give and happiness
+        to bring into your life! While Oliver and Remi are the ones that
+        complete our family, they are defintely not the only ones out there!
+        Click the button below to find a no-kill shelter closest to you! If you
+        aren't ready to fully adopt, you help by volunteering at a shelter or
+        even fostering pets that don't do well in a shelter environment! There's
+        so much we can do to help the animals that help us!
+      </p>
+    </br>
+     <div class="link"><a
+        href="https://www.humanesociety.org/"
+        target="_blank"
+        class="btn btn-dark"
+        >Find the closest shelter!</a
+      ></div>
+      <div class="closing">
+      <p>Created by Alexis Andrukat-Price and is <a href="#">open-sourced</a></p>
+      </div>
+     
+    </div>
+  </body>
+</html>
